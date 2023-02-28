@@ -9,6 +9,14 @@ a{
   text-decoration: none;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+ul li {
+  list-style: none;
+}
+
 .debug {
   background-color: rgba(255, 0, 0, 0.25);
 }
@@ -139,10 +147,32 @@ height: auto;
   width: 70%;
 }
 
+.buy h2 {
+  padding-bottom: 40px;
+}
+
+.buy span{
+  padding-right: 20px;
+}
+
+.buy .flex {
+  margin-top: 30px;
+}
+
 .buy-item{
   width: calc(90% /3);
   height: 450px;
 }
+
+.buy-item .type  {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid grey;
+}
+
+
+
+
 
 .buy-item-bottom{
   margin-top: 40px;
