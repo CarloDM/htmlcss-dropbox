@@ -31,6 +31,10 @@ body{
   display: flex;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -146,4 +150,45 @@ header div>img{
   height: 300px;
   border: 1px solid red;
 
+}
+
+/* business  */
+
+.business {
+  margin-top: 60px;
+
+}
+
+.business-top{
+  margin-top: 40px;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.row-link{
+  width: 300px;
+  height: 300px;
+  flex-shrink: none;
+  border: 1px solid red;
+}
+
+.row-link a {
+  width: 50%;
+  height: 50%;
+  border: 1px solid white;
+}
+
+.row-center{
+  width: 30%;
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid black;
+}
+
+.business-bottom {
+  padding: 50px 0;
+}
+
+.business-bottom .container h3 {
+  display: inline;
 }
