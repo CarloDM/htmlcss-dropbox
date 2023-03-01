@@ -405,11 +405,24 @@ height: auto;
 }
 
 .business-bottom {
-  padding: 50px 0;
+  padding: 100px 0;
+  background-color: rgb(180, 208, 231);
+}
+
+.business-bottom .container{
+
+
 }
 
 .business-bottom .container h3 {
-  display: inline;
+  width: 40%;
+}
+
+.business-bottom .container a{
+  width: 300px;
+  height: 30px;
+  border: 0;
+
 }
 
 /* faq */
