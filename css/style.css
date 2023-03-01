@@ -17,6 +17,10 @@ h3{
   font-size: 1.5rem;
 }
 
+h4{
+  font-size: 1.3rem;
+}
+
 ul li {
   list-style: none;
 }
@@ -297,10 +301,12 @@ height: auto;
 .operations {
   margin-top: 60px;
 }
+.operations h2{
+  margin-bottom: 30px;
+}
 
 .operations-item{
   width: calc(100% /3);
-  border: 1px solid red;
   text-align: justify;
 }
 
@@ -310,8 +316,7 @@ height: auto;
 }
 
 .operations-item h4 {
-  font-size: 1rem;
-  line-height: 25px;
+  line-height: 28px;
   text-align: left;
   padding: 10px;
 }
