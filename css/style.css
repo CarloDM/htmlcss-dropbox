@@ -409,11 +409,6 @@ height: auto;
   background-color: rgb(180, 208, 231);
 }
 
-.business-bottom .container{
-
-
-}
-
 .business-bottom .container h3 {
   width: 40%;
 }
@@ -430,6 +425,37 @@ height: auto;
 .faq{
   margin-top: 60px;
 }
+
+.faq ul li {
+  position: relative;
+  padding: 20px 0;
+  border-top: 1px solid lightgrey;
+  font-weight: bold;
+}
+
+.faq ul li i{
+  position: absolute;
+  right: 0px;
+  text-align: end;  
+}
+
+.faq ul li p{
+  font-weight: 400;
+  margin-top: 15px;
+  display: none;
+}
+
+.faq ul li div{
+  display: inline;
+  width: 20px;
+  height: 10px;
+}
+
+.faq ul li:hover p{
+  display: block;
+
+}
+
 
 /* footer  */
 
