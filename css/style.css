@@ -29,10 +29,6 @@ ul li {
   background-color: rgba(255, 0, 0, 0.25);
 }
 
-/* i {
-  font-size: 1rem;
-} */
-
 /* general */
 
 body{
@@ -93,9 +89,11 @@ body{
   padding: 5px 20px;
   text-align: center;
 }
+
 .bottone-blu:hover{
   background-color: rgb(1, 67, 173); 
 }
+
 .bottone-bianco{
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -141,17 +139,22 @@ header div> .box a{
   color: black;
 }
 
-header .box:hover .border{
+header .box .border{
   position: absolute;
   bottom: 0px;
   left: 0px;
+  width: 0%;
+  transition: all 0.1s ease-out;
+
+}
+
+header .box:hover .border{
   width: 100%;
   border: 1px solid rgba(0, 98, 255, 0.712);
   border-radius: 5%;
-  
 }
 
-/* main  */
+/* jumbotron  */
 
 .jumbotron{
   background-color: rgb(180, 208, 231);
@@ -194,9 +197,15 @@ margin-top: 8px;
 }
 
 .jumbotron .container div .row .icon{
+  color: black;
   font-size: 2.5rem;
   width: 25px;
   height: 35px;
+  transition: all 0.3s ease-in;
+}
+
+.jumbotron .container div .row .icon:hover{
+  font-size: 2.8rem;
 }
 
 .jumbotron .container .image img{
@@ -234,13 +243,11 @@ height: auto;
   width: calc(90% /3);
   height: 750px;
   border: 1px solid lightgrey;
-
 }
 
 .buy-item .container{
   padding: 0 20px;
   font-size: 0.7rem;
-
 }
 
 .buy-item .type,
@@ -251,12 +258,15 @@ height: auto;
   border-top: 1px;
   border-left: 1px;
   border-right: 1px;
-
 }
 
 .buy-item .container .title h4{
   margin: 10px 0px;
   font-size: 1.2rem;
+}
+
+.buy-item .container .buy-now{
+  color: rgb(0, 97, 255);
 }
 
 .separator{
@@ -273,19 +283,16 @@ height: auto;
 .punti-salienti ul li::before{
   content: "\2714";
   color: blue;
-
 }
 
 .buy-item-bottom{
   margin-top: 40px;
   width: 100%;
   border:  1px solid lightgrey;
-
 }
 
 .buy-item-bottom .container{
   padding: 0px 40px;
-
 }
 
 .buy-item-bottom .container .flex .title {
@@ -309,7 +316,6 @@ height: auto;
 
 .partner{
   margin-top: 100px;
-
 }
 
 .partner-item{
@@ -326,7 +332,6 @@ height: auto;
 .partner-item.text{
   padding: 30px;
   padding-top: 60px;
-
 }
 /* operation */
 
@@ -367,6 +372,11 @@ height: auto;
   margin-bottom: 20px;
 }
 
+.businnes-title a{
+  text-decoration: underline;
+  color: rgb(0, 97, 255);
+}
+
 .business-top{
   margin-top: 30px;
   width: calc(100vw - (100vw - 100%));;
@@ -384,7 +394,6 @@ height: auto;
   height: 50%;
   text-align: center;
   justify-content: center;
-
 }
 
 .row-link img{
@@ -393,7 +402,6 @@ height: auto;
   height: auto;
   text-align: center;
   vertical-align: center;
-
 }
 
 .row-link .florida {
@@ -405,15 +413,19 @@ height: auto;
   border: 5px solid rgba(255, 255, 255, 0.4);
 
 }
+
 #bk-red1{
   background-color: rgb(97, 8, 43);
 }
+
 #bk-blu1{
   background-color: rgb(0, 147, 206);
 }
+
 #bk-red{
   background-color: rgb(206, 0, 0);
 }
+
 #bk-red3{
   background-color: rgb(150, 8, 8);
 }
@@ -441,7 +453,8 @@ height: auto;
   background-color: rgb(180, 208, 231);
 }
 
-.business-bottom .container h3 {
+.business-bottom .container h2 {
+  color: rgb(94, 1, 36);
   width: 40%;
 }
 
@@ -449,7 +462,7 @@ height: auto;
   width: 300px;
   height: 30px;
   border: 0;
-
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.24);
 }
 
 /* faq */
@@ -493,7 +506,6 @@ height: auto;
 
 .faq ul li:hover p{
   display: block;
-
 }
 
 
@@ -513,12 +525,12 @@ footer .container{
 
 .footer-item{
   width: 25%;
-
 }
 
 .footer-item h4 {
   margin-bottom: 15px;
 }
+
 .footer-item ul li{
   margin-bottom: 5px;
 }
@@ -538,5 +550,4 @@ footer .line {
 footer span{
   color: grey;
   font-size: 0.6rem;
-
 }
